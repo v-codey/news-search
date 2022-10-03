@@ -48,8 +48,8 @@ const reducer = (state, action) => {
         ...state,
         page: pageNum,
       };
-    
-    // you can add the default case too
+    default:
+      return state
   }
 
   return state;
